@@ -54,7 +54,7 @@ button {
     font-size: .8em;
     height: 2em;
     width: 100%;
-    background-color: rgb(212,75,56);
+    background-color: rgb(212, 75, 56);
 
     color: #fff;
     border: none;
@@ -62,12 +62,12 @@ button {
 }
 
 button:hover {
-    background: rgb(232,95,76);
+    background: rgb(232, 95, 76);
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.15);
 }
 
 button:active {
-    background: rgb(232,95,76);
+    background: rgb(232, 95, 76);
     box-shadow: inset 0 0 15px -4px rgba(0, 0, 0, 0.2);
 
 }
@@ -88,6 +88,7 @@ button:active {
         width: 100%;
         padding: 0 0;
     }
+
     button {
         margin-top: 0.8em;
     }

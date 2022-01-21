@@ -5,7 +5,7 @@
  * @param {string} expression
  * @returns {string[]} - List of tokens
  */
-export default function tokenize (expression) {
+export default function tokenize(expression) {
     const chars = expression.replace(/ /g, '');
     const tokens = [];
 

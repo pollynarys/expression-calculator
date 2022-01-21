@@ -1,6 +1,6 @@
 'use strict';
 
-import {getPriority, calc} from '../operations';
+import {getPriority, calc} from './operations';
 
 /**
  * Parse and calculate expression
