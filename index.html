@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+    <h1>expression calculator</h1>
+    <input v-model="expression" id="expression">
+    <span class="result">=</span>
+    <span class="result" v-bind:title="accuracy">{{ result }}</span>
+    <button v-on:click="calculate" class="count">calculate</button>
+</div>
+<script type="module" src="js/index.js"></script>
+</body>
+</html>
